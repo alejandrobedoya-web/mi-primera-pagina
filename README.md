@@ -1,7 +1,6 @@
-# mi-primera-pagina
-Mi primera pagina
+# Mi primera pagina
+A continuacion se describe un breve resumen de lo que se vió en clase
 ## Temas vistos en clase:
 ```python
-x = 1
-print(x)
-
+print(hello)
+```
