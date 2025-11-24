@@ -1,7 +1,7 @@
-# Mi primera pagina
+# REALIZACION ACTIVIDAD 1 UNIDAD 1
 A continuacion se describe un breve resumen de lo que se vió en clase
-# Temas vistos en clase:
-## Unidad 1. Algoritmos
+## Temas vistos en clase:
+### Unidad 1. Algoritmos
 *¿Qué es un algoritmo?*
 
 Es un proceso o secuecnia de pasos que se siguen para darle solucion a un problema, estos pasos deben ser sistemáticos, hiperativos y finitos.
@@ -61,3 +61,4 @@ La comprension y uso de las distintas herramientas de un software permite que po
 ChatGPT, conversacion sobre un bloque de codigo sencillo para agregar como ejemplo a una tarea (https://chatgpt.com/?utm_source=google&utm_medium=paidsearch_brand&utm_campaign=GOOG_C_SEM_GBR_Core_CHT_BAU_ACQ_PER_MIX_ALL_LATAM_CO_ES_052925&utm_term=chatgpt&utm_content=179769193386&utm_ad=755154750442&utm_match=e&gad_source=1&gad_campaignid=22619984056&gbraid=0AAAAA-IW-UUj_fOfX1xQVh8LDqZvsMyFa&gclid=Cj0KCQiAq7HIBhDoARIsAOATDxDepaWDHEQkm0CGPT5sFett1V-vHCHEktln37qf3IVlmmdMUO1MdHQaAvMtEALw_wcB) 
 
 ***MUCHAS GRACIAS***
+
