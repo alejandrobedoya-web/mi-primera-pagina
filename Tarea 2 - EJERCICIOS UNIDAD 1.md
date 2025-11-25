@@ -3,16 +3,15 @@ Hola, a continuacion le damos solucion a la tarea 2 de la unidad 1
 ## Reto1: simula el comportamiento de la tortuga usando solo print() e input().
 ### solucion reto 1
 ```python
-def tortuga_camina_adelante ():                                                 # defino una funcion
-    pasos = int(input("¿cuantos pasos va dar la tortuga hacia adelante?: "))    # definimos la variable 'pasos' agregando un input para que el usuario ingrese el numero de pasos
-    adelante = ("-" * pasos + ">")                                               # definimos las variable 'adelante' que va multiplicar los pasos por guiones y al final agrega una '>' que es la cabeza de la tortuga en direccion hacia adelante
-    print ("la tortuga da",pasos,"pasos hacia adelante")                        # imprimo la descripcion de los pasos que da la tortuga
-    print(adelante)                                                             # imprimo la cariable 'adelante'
-tortuga_camina_adelante ()                                
+pasos = int(input("¿cuantos pasos va dar la tortuga hacia adelante?: "))
+adelante = ("-" * pasos + ">")
+print ("la tortuga da",pasos,"pasos hacia adelante")
+print(adelante)                        
 ```
 resultado:
 
-<img width="685" height="226" alt="image" src="https://github.com/user-attachments/assets/87a4990f-0166-4f50-9334-ec8440b6ce42" />
+<img width="632" height="262" alt="image" src="https://github.com/user-attachments/assets/400b724c-f206-4eba-9954-4ba0b2e2f84d" />
+
 
 ## Reto 2 : Crea el rastro de una tortuga moviéndose hacia abajo usando únicamente print() e input().
 ### solucion reto 2
