@@ -61,3 +61,8 @@ Resultado
 <img width="718" height="444" alt="image" src="https://github.com/user-attachments/assets/d70029cf-62f1-4183-baa9-a5244854dd5d" />
 
 
+## Enlace de la actividad realizada 
+https://colab.research.google.com/drive/1kxjbRVtjQJ56e_iuCP-DYAoMauAWhV4M?usp=sharing
+
+## Uso de IA 
+Se usa Gemini como asistente dentro de Colab, el cual no me comparte el link con el historial de conversacion
