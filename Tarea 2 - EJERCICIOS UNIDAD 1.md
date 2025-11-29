@@ -60,3 +60,4 @@ Resultado
 
 <img width="718" height="444" alt="image" src="https://github.com/user-attachments/assets/d70029cf-62f1-4183-baa9-a5244854dd5d" />
 
+
