@@ -35,30 +35,46 @@ resultado
 
 ## Reto 4: Encapsula los comportamientos anteriores usando funciones
 Reescribe los retos anteriores creando funciones que representen los movimientos de la tortuga solo con texto.
-### solucion reto 2
+### Solución reto 4
+
 Para esta solucion, reescribí los retos anteriores para que cumplieran con los parametros del reto 4
 ```python
 ## solucion reto 1 y 2 modificado para que cumpla con reto 4
-def adelante (n):                          #defino la funcion adelante   
-    pasos = ("-" * n + ">"                 #creo la variable 'pasos' que va multiplicar el valor de 'n' por los guiones y al final agrega una '>' que es la cabeza de la tortuga en direccion hacia adelante
-    print(pasos)                           #imprimo los el resultado
-   
-def abajo (n, m):                          #defino la funcion abajo, va tener dos variable: 'n' para los pasos abajo y 'm' para los espacios a la derecha que debe ser igual a los pasos hacia adelante que se ponen en la funcion 'adelante'
-  espacios = " " * m                       #defino la variable 'espacios' que multiplica un espacion en blanco por 'm'           
-  if n == 0:                               #asigno la condicion para que finalice la recursion que en este caso es que si la cantidad de pasos llegua a 0 entonces imprimir espacios + '↓' que sera la cabeza de la tortuga
-    print (espacios + "↓")               
+espacios = 0   
+def adelante (n):
+    global espacios                                               # llamo esa variable con global para que su valor se modifique y se pueda capturar en las funciones constantemente
+    print(espacios * " " + "-" * n + ">" )
+    espacios = espacios + n
+def abajo (n):
+  if n == 0:
+    print (" " * espacios + "↓")
   else:
-    print (espacios + "|")                  # si la anterior condicion es negativa entonces va a imprimir espacios + '|'          
-    abajo(n - 1, m) 
-
-adelante (5)                                # asignamos el valor en la funcion adelante
-abajo (3, 5)                                # asignamos los valoes de abajo, la primera funcion es los pasos abajo y la segunda es la cantidad de espacios a la derecha(debe ser igual a el valor de adelante)
+    print (" " * espacios + "|")
+    abajo(n - 1)
 ```
-Esto fue lo más cerca que estuve para darle una solucion al reto 4, no encontraba la forma de asignarle el movimiento hacia abajo con los espacios que deja el moviemiento adelante de forma automatica.
-
 Resultado
+<img width="587" height="467" alt="image" src="https://github.com/user-attachments/assets/0e5698d1-dc08-4161-bace-07795db7238e" />
 
-<img width="718" height="444" alt="image" src="https://github.com/user-attachments/assets/d70029cf-62f1-4183-baa9-a5244854dd5d" />
+## Reto 5: La tortuga baja las escalas
+### solucion reto 5
+Se usa las mismas lines de codigo anterior ya que el contador de espacios permite hacer que la tortuga recurde su posicion 
+
+```python
+espacios = 0   
+def adelante (n):
+    global espacios                               
+    print(espacios * " " + "-" * n + ">" )
+    espacios = espacios + n
+def abajo (n):
+  if n == 0:
+    print (" " * espacios + "↓")
+  else:
+    print (" " * espacios + "|")
+    abajo(n - 1)
+```
+ resultado 
+
+ <img width="469" height="653" alt="image" src="https://github.com/user-attachments/assets/a9a80598-aaee-4b31-be31-6bbf9eaa4ed5" />
 
 
 ## Enlace de la actividad realizada 
