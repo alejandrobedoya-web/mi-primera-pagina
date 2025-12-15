@@ -62,3 +62,5 @@ ChatGPT, conversacion sobre un bloque de codigo sencillo para agregar como ejemp
 
 ***MUCHAS GRACIAS***
 
+LINK TAREA 2 
+
