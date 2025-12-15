@@ -1,5 +1,3 @@
-import mi_turtle
-
 espacios = 0       
 
 def adelante (n):
