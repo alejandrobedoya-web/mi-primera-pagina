@@ -1,6 +1,7 @@
 import mi_turtle
 
-espacios = 0                                                  
+espacios = 0       
+
 def adelante (n):
    global espacios                                             
    print(espacios * " " + "-" * n + ">" )
