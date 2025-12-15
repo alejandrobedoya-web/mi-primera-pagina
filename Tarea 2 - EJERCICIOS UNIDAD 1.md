@@ -82,3 +82,7 @@ https://colab.research.google.com/drive/1kxjbRVtjQJ56e_iuCP-DYAoMauAWhV4M?usp=sh
 
 ## Uso de IA 
 Se usa Gemini como asistente dentro de Colab, el cual no me comparte el link con el historial de conversacion
+
+
+
+1234567
