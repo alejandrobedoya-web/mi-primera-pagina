@@ -62,9 +62,9 @@ ChatGPT, conversacion sobre un bloque de codigo sencillo para agregar como ejemp
 
 ***MUCHAS GRACIAS***
 
-##LINK TAREA 2 - ejercicios para simular una tortuga que camina adelante y abajo:
+## LINK TAREA 2 - ejercicios para simular una tortuga que camina adelante y abajo:
 
 https://github.com/alejandrobedoya-web/mi-primera-pagina/blob/main/Tarea%202%20-%20EJERCICIOS%20UNIDAD%201.md
 
 
-##LINK TAREA 3 - empaquetado de las funciones, implementacion y POO
+## LINK TAREA 3 - empaquetado de las funciones, implementacion y POO
