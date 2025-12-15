@@ -1,4 +1,4 @@
-#Tarea 2 - Ejercicios Unidad 1
+# Tarea 2 - Ejercicios Unidad 1
 Hola, a continuacion le damos solucion a la tarea 2 de la unidad 1
 ## Reto1: simula el comportamiento de la tortuga usando solo print() e input().
 ### solucion reto 1
